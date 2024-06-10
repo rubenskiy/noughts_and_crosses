@@ -9,8 +9,29 @@
 </head>
 <body id="background">
     <h1 id="game_title">Noughts  and Crosses</h1>
-    <button onclick="setTitle()">Start a new game</button>
-    <button onclick="setBackground()">Background color</button>
+    <div>
+        <div class="row">
+            <div onclick="place(this)"></div>
+            <div onclick="place(this)"></div>
+            <div onclick="place(this)"></div>
+        </div>
+        <div class="row">
+            <div onclick="place(this)"></div>
+            <div onclick="place(this)"></div>
+            <div onclick="place(this)"></div>
+        </div>
+        <div class="row">
+            <div onclick="place(this)"></div>
+            <div onclick="place(this)"></div>
+            <div onclick="place(this)"></div>
+        </div>
+
+    </div>
+
+
+
+    <!-- <button onclick="setTitle()">Start a new game</button>
+    <button onclick="setBackground()">Background color</button> -->
     <script src="/public/js/app.js"></script>
 </body>
 </html>
